@@ -4,7 +4,7 @@ class Simon
   COLORS = ['RED'.colorize(:red).freeze,
             'BLUE'.colorize(:blue).freeze,
             'GREEN'.colorize(:green).freeze,
-            'YELLLOW'.colorize(:yellow).freeze].freeze
+            'YELLOW'.colorize(:yellow).freeze].freeze
 
   attr_accessor :sequence_length, :game_over, :seq
 
@@ -36,12 +36,16 @@ class Simon
   def show_sequence
     add_random_color
     @seq.each do |color|
-      puts color + "\r"
+      print color
+      puts "\r"
+      sleep(1)
     end
   end
 
   def require_sequence
-
+    puts 'Please enter in the colors in order, separated by commas:'
+    user_guess = gets.chomp.split(',').map(&:strip)
+    @game_over = true unless user_guess.map(&:upcase) == @seq.map(&:uncolorize)
   end
 
   def add_random_color
@@ -60,4 +64,9 @@ class Simon
   def reset_game
     initialize
   end
+end
+
+if $PROGRAM_NAME == __FILE__
+  simon = Simon.new
+  simon.play
 end
