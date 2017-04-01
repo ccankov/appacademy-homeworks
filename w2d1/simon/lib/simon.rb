@@ -1,5 +1,6 @@
 require 'colorize'
 
+# Simon game implementation
 class Simon
   COLORS = ['RED'.colorize(:red).freeze,
             'BLUE'.colorize(:blue).freeze,
@@ -36,9 +37,10 @@ class Simon
   def show_sequence
     add_random_color
     @seq.each do |color|
-      print color
-      puts "\r"
+      print " #{color}   \r"
       sleep(1)
+      print "            \r"
+      sleep(0.25)
     end
   end
 
