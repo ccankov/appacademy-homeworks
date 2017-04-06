@@ -45,6 +45,12 @@ def clever_octopus(fish)
   longest_fish
 end
 
+def slow_dance(direction, tiles_array)
+  tiles_array.each_with_index do |tile, index|
+    return index if tile == direction
+  end
+end
+
 p sluggish_octopus(FISH) == 'fiiiissshhhhhh'
 p dominant_octopus(FISH) == 'fiiiissshhhhhh'
 p clever_octopus(FISH) == 'fiiiissshhhhhh'
