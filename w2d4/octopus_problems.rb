@@ -39,6 +39,12 @@ def dominant_octopus(fish)
   sorted_fish.last
 end
 
+def clever_octopus(fish)
+  longest_fish = ''
+  fish.each { |fish| longest_fish = fish if fish.length > longest_fish.length }
+  longest_fish
+end
 
 p sluggish_octopus(FISH) == 'fiiiissshhhhhh'
 p dominant_octopus(FISH) == 'fiiiissshhhhhh'
+p clever_octopus(FISH) == 'fiiiissshhhhhh'
