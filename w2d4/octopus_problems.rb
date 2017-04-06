@@ -51,6 +51,21 @@ def slow_dance(direction, tiles_array)
   end
 end
 
+TILES = {
+    "up" => 0,
+    "right-up" => 1,
+    "right"=> 2,
+    "right-down" => 3,
+    "down" => 4,
+    "left-down" => 5,
+    "left" => 6,
+    "left-up" => 7
+}
+
+def fast_dance(direction, tiles_hash)
+  tiles_hash[direction]
+end
+
 p sluggish_octopus(FISH) == 'fiiiissshhhhhh'
 p dominant_octopus(FISH) == 'fiiiissshhhhhh'
 p clever_octopus(FISH) == 'fiiiissshhhhhh'
