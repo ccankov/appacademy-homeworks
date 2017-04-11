@@ -80,6 +80,8 @@ end
 
 # Playwright ORM
 class Playwright
+  attr_accessor :name, :birth_year
+
   def self.all
     data = PlayDBConnection.instance.execute(<<-SQL)
       SELECT
@@ -103,7 +105,7 @@ class Playwright
   end
 
   def initialize(options)
-    @id = optioins['id']
+    @id = options['id']
     @name = options['name']
     @birth_year = options['birth_year']
   end
@@ -120,7 +122,7 @@ class Playwright
   end
 
   def update
-    raise "#{self} already in database" if @id
+    raise "#{self} not in database" unless @id
     PlayDBConnection.instance.execute(<<-SQL, @name, @birth_year, @id)
       UPDATE
         playwrights
