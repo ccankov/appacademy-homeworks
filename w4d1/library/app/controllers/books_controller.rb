@@ -12,10 +12,16 @@ class BooksController < ApplicationController
   end
 
   def destroy
-    # your code here
+    book = Book.find(params[:id])
+    if book.destroy
+      redirect_to '/books'
+    else
+      render text: 'Delete failed.'
+    end
   end
 
   private
+  
   def book_params
     params.require(:book).permit(:title, :author)
   end
