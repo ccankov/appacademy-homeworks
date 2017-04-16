@@ -4,11 +4,15 @@ class BooksController < ApplicationController
   end
 
   def new
-    # your code here
+    render :new
   end
 
   def create
-    # your code here
+    if Book.create(book_params)
+      redirect_to '/books'
+    else
+      render text: 'Create failed.'
+    end
   end
 
   def destroy
@@ -21,7 +25,7 @@ class BooksController < ApplicationController
   end
 
   private
-  
+
   def book_params
     params.require(:book).permit(:title, :author)
   end
