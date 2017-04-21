@@ -1069,3 +1069,1024 @@ Completed 200 OK in 72ms (Views: 0.7ms | ActiveRecord: 1.6ms)
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "jonathan@fakesite.com"]]
   [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "iRPHUyLkC+KQTczUq+k7NA=="]]
   [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "j5T08NPfMP7QAG+JK2HVjA=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "ZKvVKnjC8gSoREYYAr/jYQ=="]]
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'ZKvVKnjC8gSoREYYAr/jYQ==' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'j5T08NPfMP7QAG+JK2HVjA==' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "Ogk777GDbOVh9ccUF34rZg=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "pNlo+koTGpJcn0bLqYrXZA=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'pNlo+koTGpJcn0bLqYrXZA==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35mUser Exists (0.9ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'Ogk777GDbOVh9ccUF34rZg==' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "+pUwo6LmS5UwYjOK1Qtamw=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "XAiUGIXSPmddc6J2QInwcA=="]]
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'XAiUGIXSPmddc6J2QInwcA==' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = '+pUwo6LmS5UwYjOK1Qtamw==' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "CjkYpmzD5/7iV/nJVIsqHA=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "vycuAtFrtxYZMl7NndM5eQ=="]]
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'vycuAtFrtxYZMl7NndM5eQ==' LIMIT 1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'CjkYpmzD5/7iV/nJVIsqHA==' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "F5inOvoPgIrsW/1inr7qKQ=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "OaV2fRTUXYt2uSORxbI8tA=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'OaV2fRTUXYt2uSORxbI8tA==' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'F5inOvoPgIrsW/1inr7qKQ==' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'OaV2fRTUXYt2uSORxbI8tA==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'F5inOvoPgIrsW/1inr7qKQ==' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "BwxcUcLCWWGwFFldGKQfmQ=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "CPdFStL5yevUh0ilcTM1HA=="]]
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'CPdFStL5yevUh0ilcTM1HA==' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'BwxcUcLCWWGwFFldGKQfmQ==' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "tycJ3II46jc1yorP79jn7g=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "F4O0zumzt/5TADKZSWKOlA=="]]
+  [1m[35mUser Exists (0.7ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'F4O0zumzt/5TADKZSWKOlA==' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'tycJ3II46jc1yorP79jn7g==' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "0OZ4pEtrTwWwgIQXxO76KA=="]]
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "sXSF5Ah1FsEjlL3++PWfVQ=="]]
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'sXSF5Ah1FsEjlL3++PWfVQ==' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = '0OZ4pEtrTwWwgIQXxO76KA==' LIMIT 1[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'sXSF5Ah1FsEjlL3++PWfVQ==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = '0OZ4pEtrTwWwgIQXxO76KA==' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "C/kH2bQS6hcShzHNxc/Z8Q=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "3+p2a9gPzk0DyVsGzmPnBg=="]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '3+p2a9gPzk0DyVsGzmPnBg==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'C/kH2bQS6hcShzHNxc/Z8Q==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$lqRdSxlIFz/V07wyqFvjGulreGeZAaqRdXwiv9QipW.IPA2u0myuC"], ["session_token", "C/kH2bQS6hcShzHNxc/Z8Q=="], ["activation_token", "3+p2a9gPzk0DyVsGzmPnBg=="], ["created_at", "2017-04-20 23:14:43.720925"], ["updated_at", "2017-04-20 23:14:43.720925"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = '3+p2a9gPzk0DyVsGzmPnBg==' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" IS NULL AND "users"."id" != 1) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'C/kH2bQS6hcShzHNxc/Z8Q==' AND "users"."id" != 1) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "WFuuYaGYwpz2gwXl6Zpxng=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "QexYFWOGwP8rylcdbuCJcA=="]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'QexYFWOGwP8rylcdbuCJcA==' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'WFuuYaGYwpz2gwXl6Zpxng==' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$z1STM5EaIDlpDrTUFfLUU.VGc3gQA.WuJ2RTMPVrYteIVm6iHAU8."], ["session_token", "WFuuYaGYwpz2gwXl6Zpxng=="], ["activation_token", "QexYFWOGwP8rylcdbuCJcA=="], ["created_at", "2017-04-20 23:14:44.034841"], ["updated_at", "2017-04-20 23:14:44.034841"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'QexYFWOGwP8rylcdbuCJcA==' AND "users"."id" != 2) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 2) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'WFuuYaGYwpz2gwXl6Zpxng==' AND "users"."id" != 2) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "k1fnClkAWDeCHSrZw9WIzQ=="]]
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "Sq4wTMJ6H//ePahaqg1c8g=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'Sq4wTMJ6H//ePahaqg1c8g==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'k1fnClkAWDeCHSrZw9WIzQ==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$0Bx5ra1T02GDQ0LrykRaPO8M6j7u679NP9ayPKv4Sesahl1lMduOa"], ["session_token", "k1fnClkAWDeCHSrZw9WIzQ=="], ["activation_token", "Sq4wTMJ6H//ePahaqg1c8g=="], ["created_at", "2017-04-20 23:14:44.106248"], ["updated_at", "2017-04-20 23:14:44.106248"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'Sq4wTMJ6H//ePahaqg1c8g==' AND "users"."id" != 3) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 3) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'k1fnClkAWDeCHSrZw9WIzQ==' AND "users"."id" != 3) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'Sq4wTMJ6H//ePahaqg1c8g==' AND "users"."id" != 3) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 3) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'k1fnClkAWDeCHSrZw9WIzQ==' AND "users"."id" != 3) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "DKj69++vyhw3G0SEFJexCg=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "L+FYjfdk4zfG4jdjpm/CzA=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'L+FYjfdk4zfG4jdjpm/CzA==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'DKj69++vyhw3G0SEFJexCg==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$/iH72jGYemAWYCzISZi3g.hVN/.GYuNm7N/hMEuxsOAJADb30ICAq"], ["session_token", "DKj69++vyhw3G0SEFJexCg=="], ["activation_token", "L+FYjfdk4zfG4jdjpm/CzA=="], ["created_at", "2017-04-20 23:15:04.817900"], ["updated_at", "2017-04-20 23:15:04.817900"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'L+FYjfdk4zfG4jdjpm/CzA==' AND "users"."id" != 4) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" IS NULL AND "users"."id" != 4) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'DKj69++vyhw3G0SEFJexCg==' AND "users"."id" != 4) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "Pxthy63QjEGec0aKOAF3Aw=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "zJBXPY8jbxDmQdHjFKjCvw=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'zJBXPY8jbxDmQdHjFKjCvw==' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'Pxthy63QjEGec0aKOAF3Aw==' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$IcnU6Xp4dgUG6Bnie1xQBOcwioJATlQOyp.jDXj8KKtIhp6HeXJs2"], ["session_token", "Pxthy63QjEGec0aKOAF3Aw=="], ["activation_token", "zJBXPY8jbxDmQdHjFKjCvw=="], ["created_at", "2017-04-20 23:15:05.124572"], ["updated_at", "2017-04-20 23:15:05.124572"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'zJBXPY8jbxDmQdHjFKjCvw==' AND "users"."id" != 5) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 5) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'Pxthy63QjEGec0aKOAF3Aw==' AND "users"."id" != 5) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "djZ4kpRiEgrf8dSnxN7EYg=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "HG+h1edmhl8YvO32oDce3A=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'HG+h1edmhl8YvO32oDce3A==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'djZ4kpRiEgrf8dSnxN7EYg==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$y/u2T6.xZ/0/L2WpjqcddeJdq11IkoYKJGyVYwEWdjq1/A//pH74K"], ["session_token", "djZ4kpRiEgrf8dSnxN7EYg=="], ["activation_token", "HG+h1edmhl8YvO32oDce3A=="], ["created_at", "2017-04-20 23:15:05.195349"], ["updated_at", "2017-04-20 23:15:05.195349"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'HG+h1edmhl8YvO32oDce3A==' AND "users"."id" != 6) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 6) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'djZ4kpRiEgrf8dSnxN7EYg==' AND "users"."id" != 6) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'HG+h1edmhl8YvO32oDce3A==' AND "users"."id" != 6) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 6) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'djZ4kpRiEgrf8dSnxN7EYg==' AND "users"."id" != 6) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "h4VB/kQgjCiq4OJOoeuexw=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "1e1ZJ408zDNuqdHGtXWdfA=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '1e1ZJ408zDNuqdHGtXWdfA==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'h4VB/kQgjCiq4OJOoeuexw==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$owQ0z98cF03sEETVGBul5e9XTHhwR2QDPmLIobuTAUZvBhuAY25iq"], ["session_token", "h4VB/kQgjCiq4OJOoeuexw=="], ["activation_token", "1e1ZJ408zDNuqdHGtXWdfA=="], ["created_at", "2017-04-20 23:15:05.389058"], ["updated_at", "2017-04-20 23:15:05.389058"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "hXy0qaYJDcDtHPj92kYP9g=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "6xJpjckVRjw4kgUi3JGMmw=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '6xJpjckVRjw4kgUi3JGMmw==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'hXy0qaYJDcDtHPj92kYP9g==' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$jnwLPVlGLxBdXDX6T8WOgeqKxf61Zcc1FoO1rhlTQkAHZOp2aQJP2"], ["session_token", "hXy0qaYJDcDtHPj92kYP9g=="], ["activation_token", "6xJpjckVRjw4kgUi3JGMmw=="], ["created_at", "2017-04-20 23:16:05.450588"], ["updated_at", "2017-04-20 23:16:05.450588"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = '6xJpjckVRjw4kgUi3JGMmw==' AND "users"."id" != 8) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" IS NULL AND "users"."id" != 8) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'hXy0qaYJDcDtHPj92kYP9g==' AND "users"."id" != 8) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "ChqHgiqxEykz8V83P9rvpQ=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "wcdK1o9PGL51iRf66pOdsA=="]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'wcdK1o9PGL51iRf66pOdsA==' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'ChqHgiqxEykz8V83P9rvpQ==' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$bnKy5AHaDsKRnCBhqO/eKuZelsPeCuB5eaUIMh0rufC/kPgGvPzN."], ["session_token", "ChqHgiqxEykz8V83P9rvpQ=="], ["activation_token", "wcdK1o9PGL51iRf66pOdsA=="], ["created_at", "2017-04-20 23:16:05.762581"], ["updated_at", "2017-04-20 23:16:05.762581"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'wcdK1o9PGL51iRf66pOdsA==' AND "users"."id" != 9) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 9) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'ChqHgiqxEykz8V83P9rvpQ==' AND "users"."id" != 9) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "I2B72JSkz3LmLnqk7iEgpw=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "T1Bf/rlLNVN1kJMn2cUKAw=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'T1Bf/rlLNVN1kJMn2cUKAw==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'I2B72JSkz3LmLnqk7iEgpw==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$top3lQedmzJVb4GGd6xB/eOAwCvyqlz3dT9tlMXvotDs/c6BajuIi"], ["session_token", "I2B72JSkz3LmLnqk7iEgpw=="], ["activation_token", "T1Bf/rlLNVN1kJMn2cUKAw=="], ["created_at", "2017-04-20 23:16:05.832533"], ["updated_at", "2017-04-20 23:16:05.832533"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'T1Bf/rlLNVN1kJMn2cUKAw==' AND "users"."id" != 10) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 10) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'I2B72JSkz3LmLnqk7iEgpw==' AND "users"."id" != 10) LIMIT 1[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'T1Bf/rlLNVN1kJMn2cUKAw==' AND "users"."id" != 10) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 10) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'I2B72JSkz3LmLnqk7iEgpw==' AND "users"."id" != 10) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "RFmrGDQQRdGM1Y0gxIfKjA=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "ih912V/+EctBuKSgziMLnA=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'ih912V/+EctBuKSgziMLnA==' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'RFmrGDQQRdGM1Y0gxIfKjA==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$3RZGMgs0ARMIs5UraaG6PejCjkYioVH54qBk84abifOCn2sHkHUX6"], ["session_token", "RFmrGDQQRdGM1Y0gxIfKjA=="], ["activation_token", "ih912V/+EctBuKSgziMLnA=="], ["created_at", "2017-04-20 23:16:06.025909"], ["updated_at", "2017-04-20 23:16:06.025909"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "B0pr86zXXw7VZJq84FZ/DQ=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "utqXGkw9qA1vl6WcGK9GsQ=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'utqXGkw9qA1vl6WcGK9GsQ==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'B0pr86zXXw7VZJq84FZ/DQ==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$.K5i/YpVvxAmEG9Jt.L/QuFJCQsUR1AGYcLUXx9jMf3u7TUMfBWa."], ["session_token", "B0pr86zXXw7VZJq84FZ/DQ=="], ["activation_token", "utqXGkw9qA1vl6WcGK9GsQ=="], ["created_at", "2017-04-20 23:16:06.213453"], ["updated_at", "2017-04-20 23:16:06.213453"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "gREEY3rMqFCnj2M+DgkPkA=="]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'utqXGkw9qA1vl6WcGK9GsQ==' AND "users"."id" != 12) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 12) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'gREEY3rMqFCnj2M+DgkPkA==' AND "users"."id" != 12) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["session_token", "gREEY3rMqFCnj2M+DgkPkA=="], ["updated_at", "2017-04-20 23:16:06.217112"], ["id", 12]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "ZXj7K+xI3amXYFdmSoH0Lw=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "qp+Z+0xUWX26HpQHyeHn2g=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'qp+Z+0xUWX26HpQHyeHn2g==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'ZXj7K+xI3amXYFdmSoH0Lw==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$mEiJTWhKczYLN67t16zKoOkhlB8ZdzNFwA2mkL7PScEcXV33LRzZ6"], ["session_token", "ZXj7K+xI3amXYFdmSoH0Lw=="], ["activation_token", "qp+Z+0xUWX26HpQHyeHn2g=="], ["created_at", "2017-04-20 23:17:08.381358"], ["updated_at", "2017-04-20 23:17:08.381358"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'qp+Z+0xUWX26HpQHyeHn2g==' AND "users"."id" != 13) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" IS NULL AND "users"."id" != 13) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'ZXj7K+xI3amXYFdmSoH0Lw==' AND "users"."id" != 13) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "BTTjWRtQ2uW/lOkJG+5c8Q=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "+eZRZpxwXH+oaZmU5Sh4Aw=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '+eZRZpxwXH+oaZmU5Sh4Aw==' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'BTTjWRtQ2uW/lOkJG+5c8Q==' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$QiZEwpDMxVQyIaq.IWyOse6k3GXYUcWPBYT9sbH6Awj5rTJWsQBJ."], ["session_token", "BTTjWRtQ2uW/lOkJG+5c8Q=="], ["activation_token", "+eZRZpxwXH+oaZmU5Sh4Aw=="], ["created_at", "2017-04-20 23:17:08.686857"], ["updated_at", "2017-04-20 23:17:08.686857"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = '+eZRZpxwXH+oaZmU5Sh4Aw==' AND "users"."id" != 14) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 14) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'BTTjWRtQ2uW/lOkJG+5c8Q==' AND "users"."id" != 14) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "UoZKv8l0AtIQhG1EPjZAYw=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "wcxl9DsOeU7M3gLhMFFLPA=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'wcxl9DsOeU7M3gLhMFFLPA==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'UoZKv8l0AtIQhG1EPjZAYw==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$2ZsWW7h4XvTqmD0UBaxXteNJASDOw4Wo09ptqmAw4UpX2RajxUUmC"], ["session_token", "UoZKv8l0AtIQhG1EPjZAYw=="], ["activation_token", "wcxl9DsOeU7M3gLhMFFLPA=="], ["created_at", "2017-04-20 23:17:08.757695"], ["updated_at", "2017-04-20 23:17:08.757695"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'wcxl9DsOeU7M3gLhMFFLPA==' AND "users"."id" != 15) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 15) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'UoZKv8l0AtIQhG1EPjZAYw==' AND "users"."id" != 15) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'wcxl9DsOeU7M3gLhMFFLPA==' AND "users"."id" != 15) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 15) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'UoZKv8l0AtIQhG1EPjZAYw==' AND "users"."id" != 15) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "Cu3lCAzgLQv0d/zAr1xQrQ=="]]
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "i6y5VY2yMPeZO8dfkwoTOg=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'i6y5VY2yMPeZO8dfkwoTOg==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'Cu3lCAzgLQv0d/zAr1xQrQ==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$v7m/H1ChXcw5ITHU5DqdxOezqzN4Sl1uSmZjeoUZ3nb5lg0FEBM6S"], ["session_token", "Cu3lCAzgLQv0d/zAr1xQrQ=="], ["activation_token", "i6y5VY2yMPeZO8dfkwoTOg=="], ["created_at", "2017-04-20 23:17:08.952863"], ["updated_at", "2017-04-20 23:17:08.952863"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "K2mm56ceMIak9iusnuKPdg=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "UVri+mV7O79lZGtZZNOi1A=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'UVri+mV7O79lZGtZZNOi1A==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'K2mm56ceMIak9iusnuKPdg==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$uhzb3vWlye5IC5Nk/lAvEOUTufBRF.gmFSuuaj9Dx3HKsRt/Pqozq"], ["session_token", "K2mm56ceMIak9iusnuKPdg=="], ["activation_token", "UVri+mV7O79lZGtZZNOi1A=="], ["created_at", "2017-04-20 23:17:09.141621"], ["updated_at", "2017-04-20 23:17:09.141621"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "Z031Pn7xZOZfkbF/XsGzQg=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'UVri+mV7O79lZGtZZNOi1A==' AND "users"."id" != 17) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 17) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'Z031Pn7xZOZfkbF/XsGzQg==' AND "users"."id" != 17) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["session_token", "Z031Pn7xZOZfkbF/XsGzQg=="], ["updated_at", "2017-04-20 23:17:09.145261"], ["id", 17]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "fRYyAHUgfDcgq+DcsJc6Jg=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "15gUshPgG1LZzhw5I+j09g=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '15gUshPgG1LZzhw5I+j09g==' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'fRYyAHUgfDcgq+DcsJc6Jg==' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$cK5f1xZW0eI2.WwOl/1xdue0AdTfJnsBhVrEc9WHuu4JdDnKD/vmq"], ["session_token", "fRYyAHUgfDcgq+DcsJc6Jg=="], ["activation_token", "15gUshPgG1LZzhw5I+j09g=="], ["created_at", "2017-04-20 23:17:09.216374"], ["updated_at", "2017-04-20 23:17:09.216374"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "tZQFiw0pclWMUUqNB4K05Q=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = '15gUshPgG1LZzhw5I+j09g==' AND "users"."id" != 18) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 18) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'tZQFiw0pclWMUUqNB4K05Q==' AND "users"."id" != 18) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "tZQFiw0pclWMUUqNB4K05Q=="], ["updated_at", "2017-04-20 23:17:09.220347"], ["id", 18]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "BY03S44j2XIsguR7jFTeUA=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "tvWX2/olfrAS9lcKdbt6RQ=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'tvWX2/olfrAS9lcKdbt6RQ==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'BY03S44j2XIsguR7jFTeUA==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$Rfqn.C7TnyxN9Qkxwa/dL.nRF0O5PvfMeFnnveQO0pHSGnzGboDiK"], ["session_token", "BY03S44j2XIsguR7jFTeUA=="], ["activation_token", "tvWX2/olfrAS9lcKdbt6RQ=="], ["created_at", "2017-04-20 23:54:29.233758"], ["updated_at", "2017-04-20 23:54:29.233758"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'tvWX2/olfrAS9lcKdbt6RQ==' AND "users"."id" != 19) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" IS NULL AND "users"."id" != 19) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'BY03S44j2XIsguR7jFTeUA==' AND "users"."id" != 19) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "sqsnmkJ0KmOHJAWVsuH2YQ=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "oqKmlyTgwgNIDjK4HSehOQ=="]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'oqKmlyTgwgNIDjK4HSehOQ==' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'sqsnmkJ0KmOHJAWVsuH2YQ==' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$T7nysoAoZXbFLuqw1j0MhOr3aeEJRUf9q1FrAg1Dxez2o79q3gOYW"], ["session_token", "sqsnmkJ0KmOHJAWVsuH2YQ=="], ["activation_token", "oqKmlyTgwgNIDjK4HSehOQ=="], ["created_at", "2017-04-20 23:54:29.542640"], ["updated_at", "2017-04-20 23:54:29.542640"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'oqKmlyTgwgNIDjK4HSehOQ==' AND "users"."id" != 20) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 20) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'sqsnmkJ0KmOHJAWVsuH2YQ==' AND "users"."id" != 20) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "9jN1PYYKGcx7AJru4SYiAA=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "ZdI/ak3DA8v9+qnCRaHKdg=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'ZdI/ak3DA8v9+qnCRaHKdg==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = '9jN1PYYKGcx7AJru4SYiAA==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$.T8vmiJ9iAa8XlwRxJzK8upbTiPBXSVtvqbgz.lPsChPliWCUcWkK"], ["session_token", "9jN1PYYKGcx7AJru4SYiAA=="], ["activation_token", "ZdI/ak3DA8v9+qnCRaHKdg=="], ["created_at", "2017-04-20 23:54:29.613446"], ["updated_at", "2017-04-20 23:54:29.613446"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'ZdI/ak3DA8v9+qnCRaHKdg==' AND "users"."id" != 21) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 21) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = '9jN1PYYKGcx7AJru4SYiAA==' AND "users"."id" != 21) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'ZdI/ak3DA8v9+qnCRaHKdg==' AND "users"."id" != 21) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 21) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = '9jN1PYYKGcx7AJru4SYiAA==' AND "users"."id" != 21) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "+dkHdvEeQZLTHg4f+tZEwg=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "sDG+afoXCF7gQ15pQAnBZA=="]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'sDG+afoXCF7gQ15pQAnBZA==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = '+dkHdvEeQZLTHg4f+tZEwg==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$rghSFSawZm.KLSSySEGqV.8NAyNJXvS/UgMnZADm6nHLtXb/ycDue"], ["session_token", "+dkHdvEeQZLTHg4f+tZEwg=="], ["activation_token", "sDG+afoXCF7gQ15pQAnBZA=="], ["created_at", "2017-04-20 23:54:29.810081"], ["updated_at", "2017-04-20 23:54:29.810081"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "1wIB9p5MDoxW8R0Jtpugww=="]]
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "v31pOV+CvYqJQ1SamOUKLw=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'v31pOV+CvYqJQ1SamOUKLw==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = '1wIB9p5MDoxW8R0Jtpugww==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$QPxNqQgM9wyZs./dYULSf.n9Pz2.TO/CXaMMFZoc7RAYIN03t5tES"], ["session_token", "1wIB9p5MDoxW8R0Jtpugww=="], ["activation_token", "v31pOV+CvYqJQ1SamOUKLw=="], ["created_at", "2017-04-20 23:54:30.002732"], ["updated_at", "2017-04-20 23:54:30.002732"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "mk1XmPPZsM7oKc+qlELaqQ=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'v31pOV+CvYqJQ1SamOUKLw==' AND "users"."id" != 23) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 23) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'mk1XmPPZsM7oKc+qlELaqQ==' AND "users"."id" != 23) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["session_token", "mk1XmPPZsM7oKc+qlELaqQ=="], ["updated_at", "2017-04-20 23:54:30.006280"], ["id", 23]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qmC4SSH6vQsJvEANTuCFdQ=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "igZIAzsfPuCtbxulwOyeNw=="]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'igZIAzsfPuCtbxulwOyeNw==' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'qmC4SSH6vQsJvEANTuCFdQ==' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$kANWpGufAvLCJl4GHyDm2OHXKt594O50Eh/FlLLOhlRYI4.m4a/32"], ["session_token", "qmC4SSH6vQsJvEANTuCFdQ=="], ["activation_token", "igZIAzsfPuCtbxulwOyeNw=="], ["created_at", "2017-04-20 23:54:30.074978"], ["updated_at", "2017-04-20 23:54:30.074978"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "myQlyAbnxF4oWajiq+eikA=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'igZIAzsfPuCtbxulwOyeNw==' AND "users"."id" != 24) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 24) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'myQlyAbnxF4oWajiq+eikA==' AND "users"."id" != 24) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "myQlyAbnxF4oWajiq+eikA=="], ["updated_at", "2017-04-20 23:54:30.078922"], ["id", 24]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "chris@fake.com"]]
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "CfzIZNNmUI6y6a+zYCsoZA=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "beSq9BhQHAHE2FK/qNuxHw=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'beSq9BhQHAHE2FK/qNuxHw==' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'CfzIZNNmUI6y6a+zYCsoZA==' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$fLTVRv7gxXDj5x9Etmi2b.NkBZKHqSiYtXY5vX70lmcOrdk3zbwpK"], ["session_token", "CfzIZNNmUI6y6a+zYCsoZA=="], ["activation_token", "beSq9BhQHAHE2FK/qNuxHw=="], ["created_at", "2017-04-20 23:54:30.148656"], ["updated_at", "2017-04-20 23:54:30.148656"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "ivMSitG93KM42XrWmRZfxQ=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "EJUwUsaPQ3jEbEMiwFpQlA=="]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'EJUwUsaPQ3jEbEMiwFpQlA==' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'ivMSitG93KM42XrWmRZfxQ==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$2euctOp8xvKzxBybNMxKRu2NHgvEPtiCyVy4Mhf7xUX1FNV6v2R3a"], ["session_token", "ivMSitG93KM42XrWmRZfxQ=="], ["activation_token", "EJUwUsaPQ3jEbEMiwFpQlA=="], ["created_at", "2017-04-20 23:57:09.723269"], ["updated_at", "2017-04-20 23:57:09.723269"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'EJUwUsaPQ3jEbEMiwFpQlA==' AND "users"."id" != 26) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" IS NULL AND "users"."id" != 26) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'ivMSitG93KM42XrWmRZfxQ==' AND "users"."id" != 26) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "cgymGNE//QKa1arAUzlRLw=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "qewqNIPypkUVfN9rH5lQgA=="]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'qewqNIPypkUVfN9rH5lQgA==' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'cgymGNE//QKa1arAUzlRLw==' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$DWXKg8E2XUt0rn3lHZd63.3wkMP7Tc1hbLSujdL2Vb8A65OhGecx2"], ["session_token", "cgymGNE//QKa1arAUzlRLw=="], ["activation_token", "qewqNIPypkUVfN9rH5lQgA=="], ["created_at", "2017-04-20 23:57:10.028302"], ["updated_at", "2017-04-20 23:57:10.028302"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'qewqNIPypkUVfN9rH5lQgA==' AND "users"."id" != 27) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 27) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'cgymGNE//QKa1arAUzlRLw==' AND "users"."id" != 27) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "TKM6vjW0jJEFsoJ7nbRyMw=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "AqbXgkUfYOAYiUouB+i+GA=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'AqbXgkUfYOAYiUouB+i+GA==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'TKM6vjW0jJEFsoJ7nbRyMw==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$ks1bdEgvlrBrVAuDEGWgDe3h6J0r5ByegGULeQlEDGYDcUGwQABH."], ["session_token", "TKM6vjW0jJEFsoJ7nbRyMw=="], ["activation_token", "AqbXgkUfYOAYiUouB+i+GA=="], ["created_at", "2017-04-20 23:57:10.099739"], ["updated_at", "2017-04-20 23:57:10.099739"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'AqbXgkUfYOAYiUouB+i+GA==' AND "users"."id" != 28) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 28) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'TKM6vjW0jJEFsoJ7nbRyMw==' AND "users"."id" != 28) LIMIT 1[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'AqbXgkUfYOAYiUouB+i+GA==' AND "users"."id" != 28) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 28) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'TKM6vjW0jJEFsoJ7nbRyMw==' AND "users"."id" != 28) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "lrR1ZMPmAl1+wi3Rzp5Yqg=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "sj4XZw9XW3/97Apc0jHosg=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'sj4XZw9XW3/97Apc0jHosg==' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'lrR1ZMPmAl1+wi3Rzp5Yqg==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$PHzd1pIt1tXgkaTCBvkBj.HkLii/MZlQTdZH2p7i0BPEL5Gti/hGC"], ["session_token", "lrR1ZMPmAl1+wi3Rzp5Yqg=="], ["activation_token", "sj4XZw9XW3/97Apc0jHosg=="], ["created_at", "2017-04-20 23:57:10.292393"], ["updated_at", "2017-04-20 23:57:10.292393"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "d+pKvVjn9gf2Zhw9qdtTLg=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "31quuh69TQ170pPPaGTfHw=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '31quuh69TQ170pPPaGTfHw==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'd+pKvVjn9gf2Zhw9qdtTLg==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$FzPVkRhdw8t3Pa4EQO062uZiyna0b4ibbYLAY3xrmJjKf/78VdRBO"], ["session_token", "d+pKvVjn9gf2Zhw9qdtTLg=="], ["activation_token", "31quuh69TQ170pPPaGTfHw=="], ["created_at", "2017-04-20 23:57:10.480264"], ["updated_at", "2017-04-20 23:57:10.480264"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "gm9u15EcWzR6g3CV2mw41g=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = '31quuh69TQ170pPPaGTfHw==' AND "users"."id" != 30) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 30) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'gm9u15EcWzR6g3CV2mw41g==' AND "users"."id" != 30) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["session_token", "gm9u15EcWzR6g3CV2mw41g=="], ["updated_at", "2017-04-20 23:57:10.483920"], ["id", 30]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "2PRva02evYwrPOaqIIlWaw=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "xygiM3Ia9J3zydNyK381Bw=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'xygiM3Ia9J3zydNyK381Bw==' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = '2PRva02evYwrPOaqIIlWaw==' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$8ChbfvIzMYGHszZWp6tyY.p80Irl/Wu18ZQKCxvN0YFlztoXm5Oau"], ["session_token", "2PRva02evYwrPOaqIIlWaw=="], ["activation_token", "xygiM3Ia9J3zydNyK381Bw=="], ["created_at", "2017-04-20 23:57:10.553954"], ["updated_at", "2017-04-20 23:57:10.553954"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "7qDUEUnWMSx6D8DhpHEnyQ=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'xygiM3Ia9J3zydNyK381Bw==' AND "users"."id" != 31) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 31) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = '7qDUEUnWMSx6D8DhpHEnyQ==' AND "users"."id" != 31) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "7qDUEUnWMSx6D8DhpHEnyQ=="], ["updated_at", "2017-04-20 23:57:10.558639"], ["id", 31]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "chris@fake.com"]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "dgQhnTz9KBK4f7MCKOmWRQ=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "SpcWO2EynyMxIUA2PS3VLA=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'SpcWO2EynyMxIUA2PS3VLA==' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'dgQhnTz9KBK4f7MCKOmWRQ==' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$dmlIczzNCSti.YNrI8SUS.hur9xnFo3XqozuLRPAypNpvN/tXDfAS"], ["session_token", "dgQhnTz9KBK4f7MCKOmWRQ=="], ["activation_token", "SpcWO2EynyMxIUA2PS3VLA=="], ["created_at", "2017-04-20 23:57:10.633082"], ["updated_at", "2017-04-20 23:57:10.633082"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "WUc4c7Tf6vviP2skj3yzuw=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "WtRVWug0yYnBV3Oa3S7dow=="]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'WtRVWug0yYnBV3Oa3S7dow==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'WUc4c7Tf6vviP2skj3yzuw==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$9D/vGx11bGUmrVoGIcbu4eIf0EBJ7Jk7SUHKl.GPhAGjZIFNnUbG."], ["session_token", "WUc4c7Tf6vviP2skj3yzuw=="], ["activation_token", "WtRVWug0yYnBV3Oa3S7dow=="], ["created_at", "2017-04-20 23:57:42.149411"], ["updated_at", "2017-04-20 23:57:42.149411"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'WtRVWug0yYnBV3Oa3S7dow==' AND "users"."id" != 33) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" IS NULL AND "users"."id" != 33) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'WUc4c7Tf6vviP2skj3yzuw==' AND "users"."id" != 33) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "ISLtygPbW/+oknZKgeE7Ow=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "7v2H9rg6fwSUDcok1o5/0g=="]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '7v2H9rg6fwSUDcok1o5/0g==' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'ISLtygPbW/+oknZKgeE7Ow==' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$l63yf.HrQ7WAZg4cCfOpJuvu4PyLecx3t2GPoGXOJwqO05mEcV562"], ["session_token", "ISLtygPbW/+oknZKgeE7Ow=="], ["activation_token", "7v2H9rg6fwSUDcok1o5/0g=="], ["created_at", "2017-04-20 23:57:42.454505"], ["updated_at", "2017-04-20 23:57:42.454505"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = '7v2H9rg6fwSUDcok1o5/0g==' AND "users"."id" != 34) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 34) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'ISLtygPbW/+oknZKgeE7Ow==' AND "users"."id" != 34) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "zoQPwiH/WgxFCoqEZf3sFw=="]]
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "pmBjbtgb0jL9zHeQy7aD7Q=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'pmBjbtgb0jL9zHeQy7aD7Q==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'zoQPwiH/WgxFCoqEZf3sFw==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$haq0JO9Gr3E.kM2VR3KLlOYAGqK4X/6d6o9NxMLx70io362F.UKvO"], ["session_token", "zoQPwiH/WgxFCoqEZf3sFw=="], ["activation_token", "pmBjbtgb0jL9zHeQy7aD7Q=="], ["created_at", "2017-04-20 23:57:42.526546"], ["updated_at", "2017-04-20 23:57:42.526546"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'pmBjbtgb0jL9zHeQy7aD7Q==' AND "users"."id" != 35) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 35) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'zoQPwiH/WgxFCoqEZf3sFw==' AND "users"."id" != 35) LIMIT 1[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'pmBjbtgb0jL9zHeQy7aD7Q==' AND "users"."id" != 35) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 35) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'zoQPwiH/WgxFCoqEZf3sFw==' AND "users"."id" != 35) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "hPJDwQdsycKCeqsuvmpj+Q=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "Yl3W3Ky9i4HYfc9OwfGqsQ=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'Yl3W3Ky9i4HYfc9OwfGqsQ==' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'hPJDwQdsycKCeqsuvmpj+Q==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$FYnesI4UBq9YfR87HEoudO5BT4JGPsv2HWPr7LNrlVLeQKyYOtw3y"], ["session_token", "hPJDwQdsycKCeqsuvmpj+Q=="], ["activation_token", "Yl3W3Ky9i4HYfc9OwfGqsQ=="], ["created_at", "2017-04-20 23:57:42.720063"], ["updated_at", "2017-04-20 23:57:42.720063"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "Bu6QVG0LTOtP1Zd/bzjXSA=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "FVdFX7cLXbNg99qZ+YzTog=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'FVdFX7cLXbNg99qZ+YzTog==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'Bu6QVG0LTOtP1Zd/bzjXSA==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$7Fddx2vBHdIgz.pbbB9.Z.zAd6rzymnnzDpPVOD4m3ia1F6psn41S"], ["session_token", "Bu6QVG0LTOtP1Zd/bzjXSA=="], ["activation_token", "FVdFX7cLXbNg99qZ+YzTog=="], ["created_at", "2017-04-20 23:57:42.908025"], ["updated_at", "2017-04-20 23:57:42.908025"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "rI85xYbqrZwA4LbXCCsZqw=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'FVdFX7cLXbNg99qZ+YzTog==' AND "users"."id" != 37) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 37) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'rI85xYbqrZwA4LbXCCsZqw==' AND "users"."id" != 37) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["session_token", "rI85xYbqrZwA4LbXCCsZqw=="], ["updated_at", "2017-04-20 23:57:42.911312"], ["id", 37]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "QFvdZNyuL2Jk42iTI1AtKQ=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "WjOx48Ie7DgnWXC2E84gbQ=="]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'WjOx48Ie7DgnWXC2E84gbQ==' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'QFvdZNyuL2Jk42iTI1AtKQ==' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$TzEFHlZUMvU.TJ7GRVSfL.LxeQK5.nBndywrICmFKHLBlivRUg6Xu"], ["session_token", "QFvdZNyuL2Jk42iTI1AtKQ=="], ["activation_token", "WjOx48Ie7DgnWXC2E84gbQ=="], ["created_at", "2017-04-20 23:57:42.979290"], ["updated_at", "2017-04-20 23:57:42.979290"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "NpH9KQcp5LXF/zqkZX5gYg=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'WjOx48Ie7DgnWXC2E84gbQ==' AND "users"."id" != 38) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 38) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'NpH9KQcp5LXF/zqkZX5gYg==' AND "users"."id" != 38) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "NpH9KQcp5LXF/zqkZX5gYg=="], ["updated_at", "2017-04-20 23:57:42.983211"], ["id", 38]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "3SY9f/x5gANLP6Z1PxhgPw=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "tnssWoGoyELPsCIWegL1Tg=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'tnssWoGoyELPsCIWegL1Tg==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = '3SY9f/x5gANLP6Z1PxhgPw==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$ZBxaH9qhvmXFU9w8mRvfauqLozLc3kvnxRlvDYYOmx52MjHc.YqMm"], ["session_token", "3SY9f/x5gANLP6Z1PxhgPw=="], ["activation_token", "tnssWoGoyELPsCIWegL1Tg=="], ["created_at", "2017-04-20 23:57:43.051995"], ["updated_at", "2017-04-20 23:57:43.051995"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "chris@fake.com"]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "JAd2MdaB+BaUQg5cm6wvmg=="]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "chris@fake.com"]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "6mg8u7YnEZ520WChFSyIjg=="]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "l7hES/aFJ7kr/W47buHkAw=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "oZxdChIGnTMcckwQ3EK7Gg=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'oZxdChIGnTMcckwQ3EK7Gg==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'l7hES/aFJ7kr/W47buHkAw==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$Uu6QZfLvMPQWwgFPCl59xehSn0E8FqT1HczbiEuTCuzZH3vU470tS"], ["session_token", "l7hES/aFJ7kr/W47buHkAw=="], ["activation_token", "oZxdChIGnTMcckwQ3EK7Gg=="], ["created_at", "2017-04-20 23:58:24.775779"], ["updated_at", "2017-04-20 23:58:24.775779"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'oZxdChIGnTMcckwQ3EK7Gg==' AND "users"."id" != 40) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" IS NULL AND "users"."id" != 40) LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'l7hES/aFJ7kr/W47buHkAw==' AND "users"."id" != 40) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "hbFC1aT99KgE46kAt4VoUA=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "QaN9OvDE7nquR9TRollvmg=="]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'QaN9OvDE7nquR9TRollvmg==' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'hbFC1aT99KgE46kAt4VoUA==' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$ra7egkkb8OpTugXjhLcKsej4XZkv34YEJ9zdOos.C8Zy7v8RuP10K"], ["session_token", "hbFC1aT99KgE46kAt4VoUA=="], ["activation_token", "QaN9OvDE7nquR9TRollvmg=="], ["created_at", "2017-04-20 23:58:25.085280"], ["updated_at", "2017-04-20 23:58:25.085280"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'QaN9OvDE7nquR9TRollvmg==' AND "users"."id" != 41) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 41) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'hbFC1aT99KgE46kAt4VoUA==' AND "users"."id" != 41) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "b7jrGi10UMbSmVunkIG0cQ=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "IF49wyivpPgl0Mi5ofF/Hg=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'IF49wyivpPgl0Mi5ofF/Hg==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'b7jrGi10UMbSmVunkIG0cQ==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$PeHPqZTlc0CH52qsXJFRV.LkJJd1/0atZQxqwRp.5w44bxBPjw7Wy"], ["session_token", "b7jrGi10UMbSmVunkIG0cQ=="], ["activation_token", "IF49wyivpPgl0Mi5ofF/Hg=="], ["created_at", "2017-04-20 23:58:25.158193"], ["updated_at", "2017-04-20 23:58:25.158193"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'IF49wyivpPgl0Mi5ofF/Hg==' AND "users"."id" != 42) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 42) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'b7jrGi10UMbSmVunkIG0cQ==' AND "users"."id" != 42) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'IF49wyivpPgl0Mi5ofF/Hg==' AND "users"."id" != 42) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 42) LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'b7jrGi10UMbSmVunkIG0cQ==' AND "users"."id" != 42) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "XSMHX5OoqjK0nFuc24FuKA=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "xWGgxNkmxg/GJ2Q5jUXqoQ=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'xWGgxNkmxg/GJ2Q5jUXqoQ==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'XSMHX5OoqjK0nFuc24FuKA==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$mJYigkZ/2cYJeHALcDEnkuYONDdlPLzREatFIhhonWenanx9yPAgu"], ["session_token", "XSMHX5OoqjK0nFuc24FuKA=="], ["activation_token", "xWGgxNkmxg/GJ2Q5jUXqoQ=="], ["created_at", "2017-04-20 23:58:25.349890"], ["updated_at", "2017-04-20 23:58:25.349890"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qfsl0Zzv4wT5VVdlaqli7A=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "DzJ+kuXM1lm/ocS6q3ODWA=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'DzJ+kuXM1lm/ocS6q3ODWA==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'qfsl0Zzv4wT5VVdlaqli7A==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$l69NP6YrOMAZjpi.FgZbreoCZgKtlNa/vCoSpFARb4go3DA55GOWG"], ["session_token", "qfsl0Zzv4wT5VVdlaqli7A=="], ["activation_token", "DzJ+kuXM1lm/ocS6q3ODWA=="], ["created_at", "2017-04-20 23:58:25.537105"], ["updated_at", "2017-04-20 23:58:25.537105"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "6FUt8E8bOabEo7E+mKlTNg=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'DzJ+kuXM1lm/ocS6q3ODWA==' AND "users"."id" != 44) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 44) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = '6FUt8E8bOabEo7E+mKlTNg==' AND "users"."id" != 44) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["session_token", "6FUt8E8bOabEo7E+mKlTNg=="], ["updated_at", "2017-04-20 23:58:25.540478"], ["id", 44]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "bW3RwwBH2S1gpsmwIyTqQw=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "2SQXfA+mtaoXp5Vq3U5CSQ=="]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '2SQXfA+mtaoXp5Vq3U5CSQ==' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'bW3RwwBH2S1gpsmwIyTqQw==' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$qi7HwPhuTzwHzOf1m91mDekCIXUHc3gmssnFL4aTixY/Nl2ob8ucK"], ["session_token", "bW3RwwBH2S1gpsmwIyTqQw=="], ["activation_token", "2SQXfA+mtaoXp5Vq3U5CSQ=="], ["created_at", "2017-04-20 23:58:25.609361"], ["updated_at", "2017-04-20 23:58:25.609361"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "fOq8ZMHhLmhW6frcYjhWDQ=="]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = '2SQXfA+mtaoXp5Vq3U5CSQ==' AND "users"."id" != 45) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 45) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'fOq8ZMHhLmhW6frcYjhWDQ==' AND "users"."id" != 45) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "fOq8ZMHhLmhW6frcYjhWDQ=="], ["updated_at", "2017-04-20 23:58:25.612697"], ["id", 45]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "E/N9LYL/SL+ibBx2pmwpKQ=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "JKMdWJLiwY/3GyR4PAzQFg=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'JKMdWJLiwY/3GyR4PAzQFg==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'E/N9LYL/SL+ibBx2pmwpKQ==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$qmgF7gcXkFa0Vqbnj3XEHeEfbaoG5y08LvJ.bdVcXgxP7r9qSRvZW"], ["session_token", "E/N9LYL/SL+ibBx2pmwpKQ=="], ["activation_token", "JKMdWJLiwY/3GyR4PAzQFg=="], ["created_at", "2017-04-20 23:58:25.680872"], ["updated_at", "2017-04-20 23:58:25.680872"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "chris@fake.com"]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "1l7OgJBV69TBneSUEAt7Kw=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "pHnZNMNJUNujKKn4TKEoTg=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "2Nu/lzwwPtckqEwRz1VDaw=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '2Nu/lzwwPtckqEwRz1VDaw==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'pHnZNMNJUNujKKn4TKEoTg==' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "5zEVnVPVzq9SLYI5axaISA=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "4q0TGjxg09MJ7XMSQyqHJQ=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '4q0TGjxg09MJ7XMSQyqHJQ==' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = '5zEVnVPVzq9SLYI5axaISA==' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$L6iyQde5bNvXECtFPmCaDuS5VC5YAf00Xvtn1QKoarYACSZLDrxBS"], ["session_token", "5zEVnVPVzq9SLYI5axaISA=="], ["activation_token", "4q0TGjxg09MJ7XMSQyqHJQ=="], ["created_at", "2017-04-20 23:58:25.887824"], ["updated_at", "2017-04-20 23:58:25.887824"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "chris@fake.com"]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "orgmOMqLDTEdNfGY4xk97Q=="]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "4PL/XLVoQoNYfA2dlHA10g=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "aQHX29w5HoZrCedcCkCj+A=="]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'aQHX29w5HoZrCedcCkCj+A==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = '4PL/XLVoQoNYfA2dlHA10g==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$pFOkznrQFIw38guZqh.mNevyqdsTBINF1/a/fmWE0tqlEUhOCDkYu"], ["session_token", "4PL/XLVoQoNYfA2dlHA10g=="], ["activation_token", "aQHX29w5HoZrCedcCkCj+A=="], ["created_at", "2017-04-20 23:58:41.119605"], ["updated_at", "2017-04-20 23:58:41.119605"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'aQHX29w5HoZrCedcCkCj+A==' AND "users"."id" != 48) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" IS NULL AND "users"."id" != 48) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = '4PL/XLVoQoNYfA2dlHA10g==' AND "users"."id" != 48) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "nwc6NdojcQ6EYEmbka/SQg=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "+v61Kmc5Thk5Hkw+eowiVg=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '+v61Kmc5Thk5Hkw+eowiVg==' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'nwc6NdojcQ6EYEmbka/SQg==' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$puzlJwOajTL2jER2.IiNM.TFa50kHuP8D3YjeLKVFTxLa.Uf7CH42"], ["session_token", "nwc6NdojcQ6EYEmbka/SQg=="], ["activation_token", "+v61Kmc5Thk5Hkw+eowiVg=="], ["created_at", "2017-04-20 23:58:41.424898"], ["updated_at", "2017-04-20 23:58:41.424898"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = '+v61Kmc5Thk5Hkw+eowiVg==' AND "users"."id" != 49) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 49) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'nwc6NdojcQ6EYEmbka/SQg==' AND "users"."id" != 49) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "S7k4axnl4lidUyr+IvfPmg=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "l0at6bdFkg0cx59rADYA1w=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'l0at6bdFkg0cx59rADYA1w==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'S7k4axnl4lidUyr+IvfPmg==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$zMgu2plpaxc7wgFl4N6l2.DrvpI0YJsk7j.d1.nMGUk4wWtAiRsz6"], ["session_token", "S7k4axnl4lidUyr+IvfPmg=="], ["activation_token", "l0at6bdFkg0cx59rADYA1w=="], ["created_at", "2017-04-20 23:58:41.494727"], ["updated_at", "2017-04-20 23:58:41.494727"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'l0at6bdFkg0cx59rADYA1w==' AND "users"."id" != 50) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 50) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'S7k4axnl4lidUyr+IvfPmg==' AND "users"."id" != 50) LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'l0at6bdFkg0cx59rADYA1w==' AND "users"."id" != 50) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 50) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'S7k4axnl4lidUyr+IvfPmg==' AND "users"."id" != 50) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "OvOM7Ugc1DPRjWHMvg2gsw=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "TdLJIq2ehAPmWVvZ/yPtDQ=="]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'TdLJIq2ehAPmWVvZ/yPtDQ==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'OvOM7Ugc1DPRjWHMvg2gsw==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$hIGEv9bW/p1jeW5M7e2b1.4KVqPFtQ9HZgvcSfAcPY1Dhc0.LgHVW"], ["session_token", "OvOM7Ugc1DPRjWHMvg2gsw=="], ["activation_token", "TdLJIq2ehAPmWVvZ/yPtDQ=="], ["created_at", "2017-04-20 23:58:41.686593"], ["updated_at", "2017-04-20 23:58:41.686593"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "zqkq4Db65leLd5cP9u8HSg=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "j+xb9FQ9WOJYd0SSWk6jLA=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'j+xb9FQ9WOJYd0SSWk6jLA==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'zqkq4Db65leLd5cP9u8HSg==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$flFJnfDgPkv5aMUi/CKdmeeiPoDViki3V3wlmqwhPFne3lurdWpaa"], ["session_token", "zqkq4Db65leLd5cP9u8HSg=="], ["activation_token", "j+xb9FQ9WOJYd0SSWk6jLA=="], ["created_at", "2017-04-20 23:58:41.874019"], ["updated_at", "2017-04-20 23:58:41.874019"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "xmKokodXUhT3aq/cL/bB4g=="]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = 'j+xb9FQ9WOJYd0SSWk6jLA==' AND "users"."id" != 52) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 52) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'xmKokodXUhT3aq/cL/bB4g==' AND "users"."id" != 52) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["session_token", "xmKokodXUhT3aq/cL/bB4g=="], ["updated_at", "2017-04-20 23:58:41.877360"], ["id", 52]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "VafCQUHyNzGQJGNOcrMJGA=="]]
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "76/mg1W92RcKC7hlH5tyFw=="]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '76/mg1W92RcKC7hlH5tyFw==' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'VafCQUHyNzGQJGNOcrMJGA==' LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$U0hX9aLtZLQJrSZ4rac4s.aR1ih88bdLYsKwMlDHKQyVLwyhSNHS2"], ["session_token", "VafCQUHyNzGQJGNOcrMJGA=="], ["activation_token", "76/mg1W92RcKC7hlH5tyFw=="], ["created_at", "2017-04-20 23:58:41.945048"], ["updated_at", "2017-04-20 23:58:41.945048"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "fDnDUWQVkWp9SRqjrD9CSA=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."activation_token" = '76/mg1W92RcKC7hlH5tyFw==' AND "users"."id" != 53) LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'chris@fake.com' AND "users"."id" != 53) LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."session_token" = 'fDnDUWQVkWp9SRqjrD9CSA==' AND "users"."id" != 53) LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "fDnDUWQVkWp9SRqjrD9CSA=="], ["updated_at", "2017-04-20 23:58:41.948246"], ["id", 53]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "X3S7YkWNeLm+o/pkckKKaQ=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "TUoXldWCqM3HiTQIf9TRHg=="]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'TUoXldWCqM3HiTQIf9TRHg==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'X3S7YkWNeLm+o/pkckKKaQ==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$AdwQz.ckPbWeE76JcvYrFumyNJLQB6IBFDAWhCmRhEaA4BdBMILIe"], ["session_token", "X3S7YkWNeLm+o/pkckKKaQ=="], ["activation_token", "TUoXldWCqM3HiTQIf9TRHg=="], ["created_at", "2017-04-20 23:58:42.015171"], ["updated_at", "2017-04-20 23:58:42.015171"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "chris@fake.com"]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "izB7XVvykXxLt3a4BssRog=="]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "+UlRgJSB4oTVfb3lgHOAgA=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "jY3vehou5UbpefbFqaIpcA=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'jY3vehou5UbpefbFqaIpcA==' LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = '+UlRgJSB4oTVfb3lgHOAgA==' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$ZNnUwbKUX8.hXhaNetYPIe0shnXMo/3JGHqV7x4Uxuk18cgHLp9q."], ["session_token", "+UlRgJSB4oTVfb3lgHOAgA=="], ["activation_token", "jY3vehou5UbpefbFqaIpcA=="], ["created_at", "2017-04-20 23:58:42.144593"], ["updated_at", "2017-04-20 23:58:42.144593"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "chris@fake.com"]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "HtPgJNTZGMBj2F19TOyDKg=="]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Processing by UsersController#new as HTML
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "poeL7YvWWyjkPV79cX+ZZQ=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "lwEd9qV1yrVHgYkGMgufqg=="]]
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 8.3ms | ActiveRecord: 3.5ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Processing by UsersController#new as HTML
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "48eQjY7KgHDaugLA4582vw=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "vhBSuG7GsF/6tyYKXDTjOQ=="]]
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 7.9ms | ActiveRecord: 2.9ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Processing by UsersController#new as HTML
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "xfHCdScuFFcHXqlSYMLH+Q=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "y2xwwC350QwjeGPNC3tqFA=="]]
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 8.2ms | ActiveRecord: 3.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"chris@fake.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "1B5eis/OFBUEE7pT9DdVSA=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "kc7prY47/JEmsUoCff2CJg=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'kc7prY47/JEmsUoCff2CJg==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = '1B5eis/OFBUEE7pT9DdVSA==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$kxMramHeSov3SrygOW9U8.po.8CIWCwkfDn4suWdRZTj5MLS.kP0S"], ["session_token", "1B5eis/OFBUEE7pT9DdVSA=="], ["activation_token", "kc7prY47/JEmsUoCff2CJg=="], ["created_at", "2017-04-21 00:04:09.958110"], ["updated_at", "2017-04-21 00:04:09.958110"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered user_mailer/activation_email.html.erb (2.1ms)
+  Rendered user_mailer/activation_email.text.erb (0.6ms)
+
+UserMailer#activation_email: processed outbound mail in 119.2ms
+Redirected to http://test.host/session/new
+Completed 302 Found in 206ms (ActiveRecord: 1.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "chris@fake.com"]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "zfxwctK8A26lvjmYpS0Zfg=="]]
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Processing by UsersController#new as HTML
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "rzc4GM+/MYiqXMTAhhYdNg=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "JFZjcTa9hNgbTQY4EYWHjw=="]]
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 8.9ms | ActiveRecord: 3.1ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"chris@fake.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "mxmEf+dfixrzaE+oZlJxqA=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "XGw3IpgVODZXDem/V0HJvQ=="]]
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'XGw3IpgVODZXDem/V0HJvQ==' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'mxmEf+dfixrzaE+oZlJxqA==' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$ImWIJEHjUqPyhc1E2kmz6.oHhuYHpNMHMCmN9FREmWI//s6Wisxra"], ["session_token", "mxmEf+dfixrzaE+oZlJxqA=="], ["activation_token", "XGw3IpgVODZXDem/V0HJvQ=="], ["created_at", "2017-04-21 00:05:16.625969"], ["updated_at", "2017-04-21 00:05:16.625969"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered user_mailer/activation_email.html.erb (1.2ms)
+  Rendered user_mailer/activation_email.text.erb (0.4ms)
+
+UserMailer#activation_email: processed outbound mail in 100.9ms
+Redirected to http://test.host/session/new
+Completed 302 Found in 185ms (ActiveRecord: 1.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "chris@fake.com"]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "QHnYjvz+z5o0DXMB90fBow=="]]
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UsersController#new as HTML
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "2z/3LyYMyFP8Duf4IskQBA=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "PBYtYxalGxBrTnBDIq96aA=="]]
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 30ms (Views: 8.5ms | ActiveRecord: 2.3ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"chris@fake.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "EE41y1x4iqoP5rzBcFnGrw=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "0UErmEl+cUXc9U17/A8TvQ=="]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '0UErmEl+cUXc9U17/A8TvQ==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'EE41y1x4iqoP5rzBcFnGrw==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$O.IVRxMhuYrFWhBjq1ntw.vSYlTtuwUS14UMASd19vXOnfcd.9yAy"], ["session_token", "EE41y1x4iqoP5rzBcFnGrw=="], ["activation_token", "0UErmEl+cUXc9U17/A8TvQ=="], ["created_at", "2017-04-21 00:06:05.192842"], ["updated_at", "2017-04-21 00:06:05.192842"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered user_mailer/activation_email.html.erb (1.3ms)
+  Rendered user_mailer/activation_email.text.erb (0.4ms)
+
+UserMailer#activation_email: processed outbound mail in 101.2ms
+Redirected to http://test.host/session/new
+Completed 302 Found in 185ms (ActiveRecord: 1.1ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+Processing by UsersController#new as HTML
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "dFQ1CSi8g3nNbFp9OTmL6Q=="]]
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "AV8VuDpSwkPuu6OSMm6z5g=="]]
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 7.4ms | ActiveRecord: 3.2ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"password"=>"[FILTERED]"}}
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "vBDOj+TLJnQSRjpurYNrmQ=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "4B0FxEd9twrSuqJmmuxPjw=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '4B0FxEd9twrSuqJmmuxPjw==' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'vBDOj+TLJnQSRjpurYNrmQ==' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 303ms (Views: 0.5ms | ActiveRecord: 1.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"chris@fake.com", "password"=>"[FILTERED]"}}
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "dbv5PLLs1elteH2c7lRNoA=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "5o0QK04URtGmJmM4SrMrtQ=="]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '5o0QK04URtGmJmM4SrMrtQ==' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'dbv5PLLs1elteH2c7lRNoA==' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 0.4ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"email"=>"chris@fake.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "6W+3UNJW8NtyBdlnAYIQHA=="]]
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "Qbq/YuPITkTvtHulGAIfWg=="]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."activation_token" = 'Qbq/YuPITkTvtHulGAIfWg==' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = '6W+3UNJW8NtyBdlnAYIQHA==' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "chris@fake.com"], ["password_digest", "$2a$10$VBTZyMKYurX8o2KVB70k1eHqLDR7Z/kae5yU4hrFZL.CdrX.XwQWK"], ["session_token", "6W+3UNJW8NtyBdlnAYIQHA=="], ["activation_token", "Qbq/YuPITkTvtHulGAIfWg=="], ["created_at", "2017-04-21 00:08:13.263935"], ["updated_at", "2017-04-21 00:08:13.263935"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered user_mailer/activation_email.html.erb (1.3ms)
+  Rendered user_mailer/activation_email.text.erb (0.5ms)
+
+UserMailer#activation_email: processed outbound mail in 108.5ms
+Redirected to http://test.host/session/new
+Completed 302 Found in 185ms (ActiveRecord: 1.6ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m

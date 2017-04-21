@@ -161,3 +161,139 @@
 [2017-03-27 14:59:42 -0400 hilbert.local (85036)] ERROR : Invalid license key, please contact support@newrelic.com
 [2017-03-27 14:59:42 -0400 hilbert.local (85036)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
 [2017-03-27 17:27:44 -0400 hilbert.local (85036)] INFO : Starting Agent shutdown
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] WARN : No configuration file found. Working directory = /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] WARN : Looked in these locations (based on defaults): /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/.newrelic/newrelic.yml, /home/chris/newrelic.yml
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Environment: development
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : No known dispatcher detected.
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Application: development
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Installing ActiveJob instrumentation
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Installing Net instrumentation
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Installing Rails 4 Controller instrumentation
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Installing Rails 4 view instrumentation
+[2017-04-20 13:22:20 -0700 linux-4tnc.suse (5226)] INFO : Finished instrumentation
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] WARN : No configuration file found. Working directory = /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] WARN : Looked in these locations (based on defaults): /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/.newrelic/newrelic.yml, /home/chris/newrelic.yml
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Environment: development
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : No known dispatcher detected.
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Application: development
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Installing ActiveJob instrumentation
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Installing Net instrumentation
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Installing Rails 4 Controller instrumentation
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Installing Rails 4 view instrumentation
+[2017-04-20 13:23:22 -0700 linux-4tnc.suse (5512)] INFO : Finished instrumentation
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] WARN : No configuration file found. Working directory = /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] WARN : Looked in these locations (based on defaults): /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/.newrelic/newrelic.yml, /home/chris/newrelic.yml
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Environment: development
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : No known dispatcher detected.
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Application: development
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Installing ActiveJob instrumentation
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Installing Net instrumentation
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Installing Rails 4 Controller instrumentation
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Installing Rails 4 view instrumentation
+[2017-04-20 13:24:11 -0700 linux-4tnc.suse (5784)] INFO : Finished instrumentation
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] WARN : No configuration file found. Working directory = /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] WARN : Looked in these locations (based on defaults): /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/.newrelic/newrelic.yml, /home/chris/newrelic.yml
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Environment: development
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : No known dispatcher detected.
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Application: development
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Installing ActiveJob instrumentation
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Installing Net instrumentation
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Installing Rails 4 Controller instrumentation
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Installing Rails 4 view instrumentation
+[2017-04-20 13:24:31 -0700 linux-4tnc.suse (5858)] INFO : Finished instrumentation
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] WARN : No configuration file found. Working directory = /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] WARN : Looked in these locations (based on defaults): /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/.newrelic/newrelic.yml, /home/chris/newrelic.yml
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Environment: development
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : No known dispatcher detected.
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Application: development
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Installing ActiveJob instrumentation
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Installing Net instrumentation
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Installing Rails 4 Controller instrumentation
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Installing Rails 4 view instrumentation
+[2017-04-20 13:28:01 -0700 linux-4tnc.suse (6668)] INFO : Finished instrumentation
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] WARN : No configuration file found. Working directory = /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] WARN : Looked in these locations (based on defaults): /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/.newrelic/newrelic.yml, /home/chris/newrelic.yml
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Environment: development
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : No known dispatcher detected.
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Application: development
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Installing ActiveJob instrumentation
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Installing Net instrumentation
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Installing Rails 4 Controller instrumentation
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Installing Rails 4 view instrumentation
+[2017-04-20 13:29:11 -0700 linux-4tnc.suse (7080)] INFO : Finished instrumentation
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] WARN : No configuration file found. Working directory = /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] WARN : Looked in these locations (based on defaults): /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/.newrelic/newrelic.yml, /home/chris/newrelic.yml
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Environment: development
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : No known dispatcher detected.
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Application: development
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Installing ActiveJob instrumentation
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Installing Net instrumentation
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Installing Rails 4 Controller instrumentation
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Installing Rails 4 view instrumentation
+[2017-04-20 13:30:22 -0700 linux-4tnc.suse (7370)] INFO : Finished instrumentation
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Starting the New Relic agent version 4.0.0.332 in "development" environment.
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] WARN : No configuration file found. Working directory = /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] WARN : Looked in these locations (based on defaults): /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/config/newrelic.yml, /home/chris/Documents/AppAcademy/homeworks/w4d5/MusicApp/newrelic.yml, /home/chris/.newrelic/newrelic.yml, /home/chris/newrelic.yml
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Environment: development
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : No known dispatcher detected.
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Application: development
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Installing ActiveJob instrumentation
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Installing Net instrumentation
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Installing Rails 4 Controller instrumentation
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Installing Rails 4 view instrumentation
+[2017-04-20 16:59:02 -0700 linux-4tnc.suse (18303)] INFO : Finished instrumentation

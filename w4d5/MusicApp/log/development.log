@@ -4105,3 +4105,96 @@ Started GET "/assets/application.js?body=1" for ::1 at 2017-03-27 15:05:30 -0400
 
 
 Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2017-03-27 15:05:30 -0400
+  [1m[36m (0.2ms)[0m  [1mDROP DATABASE IF EXISTS "music_db_test"[0m
+  [1m[35m (1302.9ms)[0m  CREATE DATABASE "music_db_test" ENCODING = 'utf8'
+  [1m[36m (136.6ms)[0m  [1mDROP DATABASE IF EXISTS "music_db_test"[0m
+  [1m[35m (1129.3ms)[0m  CREATE DATABASE "music_db_test" ENCODING = 'utf8'
+  [1m[36m (0.1ms)[0m  [1mDROP DATABASE IF EXISTS "music_db_dev"[0m
+  [1m[35m (131.5ms)[0m  DROP DATABASE IF EXISTS "music_db_test"
+  [1m[36m (1112.9ms)[0m  [1mCREATE DATABASE "music_db_dev" ENCODING = 'utf8'[0m
+  [1m[35m (1146.5ms)[0m  CREATE DATABASE "music_db_test" ENCODING = 'utf8'
+  [1m[36mSQL (0.8ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (20.6ms)[0m  CREATE TABLE "albums" ("id" serial primary key, "name" character varying NOT NULL, "band_id" integer NOT NULL, "year" integer NOT NULL, "live" boolean DEFAULT 'f' NOT NULL, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (6.1ms)[0m  [1mCREATE UNIQUE INDEX  "index_albums_on_band_id_and_name" ON "albums" USING btree ("band_id", "name")[0m
+  [1m[35m (19.1ms)[0m  CREATE TABLE "bands" ("id" serial primary key, "name" character varying NOT NULL, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (18.6ms)[0m  [1mCREATE TABLE "notes" ("id" serial primary key, "track_id" integer NOT NULL, "user_id" integer NOT NULL, "content" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (11.8ms)[0m  CREATE TABLE "tracks" ("id" serial primary key, "name" character varying NOT NULL, "album_id" integer NOT NULL, "ord" integer NOT NULL, "bonus" boolean DEFAULT 'f' NOT NULL, "lyrics" text NOT NULL, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (11.5ms)[0m  [1mCREATE UNIQUE INDEX  "index_tracks_on_album_id_and_ord" ON "tracks" USING btree ("album_id", "ord")[0m
+  [1m[35m (18.9ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying NOT NULL, "password_digest" character varying NOT NULL, "session_token" character varying NOT NULL, "created_at" timestamp, "updated_at" timestamp, "activated" boolean DEFAULT 'f', "activation_token" character varying NOT NULL) 
+  [1m[36m (6.7ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_activation_token" ON "users" USING btree ("activation_token")[0m
+  [1m[35m (6.6ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")
+  [1m[36m (11.7ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_session_token" ON "users" USING btree ("session_token")[0m
+  [1m[35m (12.9ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (8.0ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.6ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (2.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140713002600')[0m
+  [1m[35m (3.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131005210841')
+  [1m[36m (2.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131014060241')[0m
+  [1m[35m (4.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131014060247')
+  [1m[36m (5.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131014060258')[0m
+  [1m[35m (5.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140127204850')
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (16.6ms)[0m  CREATE TABLE "albums" ("id" serial primary key, "name" character varying NOT NULL, "band_id" integer NOT NULL, "year" integer NOT NULL, "live" boolean DEFAULT 'f' NOT NULL, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (7.2ms)[0m  [1mCREATE UNIQUE INDEX  "index_albums_on_band_id_and_name" ON "albums" USING btree ("band_id", "name")[0m
+  [1m[35m (22.5ms)[0m  CREATE TABLE "bands" ("id" serial primary key, "name" character varying NOT NULL, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (10.3ms)[0m  [1mCREATE TABLE "notes" ("id" serial primary key, "track_id" integer NOT NULL, "user_id" integer NOT NULL, "content" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (16.7ms)[0m  CREATE TABLE "tracks" ("id" serial primary key, "name" character varying NOT NULL, "album_id" integer NOT NULL, "ord" integer NOT NULL, "bonus" boolean DEFAULT 'f' NOT NULL, "lyrics" text NOT NULL, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (10.7ms)[0m  [1mCREATE UNIQUE INDEX  "index_tracks_on_album_id_and_ord" ON "tracks" USING btree ("album_id", "ord")[0m
+  [1m[35m (17.1ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying NOT NULL, "password_digest" character varying NOT NULL, "session_token" character varying NOT NULL, "created_at" timestamp, "updated_at" timestamp, "activated" boolean DEFAULT 'f', "activation_token" character varying NOT NULL) 
+  [1m[36m (8.4ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_activation_token" ON "users" USING btree ("activation_token")[0m
+  [1m[35m (15.7ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users" USING btree ("email")
+  [1m[36m (11.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_session_token" ON "users" USING btree ("session_token")[0m
+  [1m[35m (7.0ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (5.1ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.5ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (6.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20140713002600')[0m
+  [1m[35m (5.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131005210841')
+  [1m[36m (6.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131014060241')[0m
+  [1m[35m (5.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131014060247')
+  [1m[36m (6.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131014060258')[0m
+  [1m[35m (4.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140127204850')
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mBand Load (0.6ms)[0m  SELECT "bands".* FROM "bands"
+  [1m[36mAlbum Load (0.6ms)[0m  [1mSELECT "albums".* FROM "albums"[0m
+  [1m[35mTrack Load (0.6ms)[0m  SELECT "tracks".* FROM "tracks"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mBand Exists (0.7ms)[0m  SELECT  1 AS one FROM "bands" WHERE "bands"."name" = 'the little ''a''s' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "bands" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "the little 'a's"], ["created_at", "2017-04-20 20:24:14.970189"], ["updated_at", "2017-04-20 20:24:14.970189"]]
+  [1m[35m (2.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mBand Exists (0.4ms)[0m  SELECT  1 AS one FROM "bands" WHERE "bands"."name" = 'THE BIG ''A''s' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "bands" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "THE BIG 'A's"], ["created_at", "2017-04-20 20:24:14.977291"], ["updated_at", "2017-04-20 20:24:14.977291"]]
+  [1m[35m (2.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mAlbum Exists (0.5ms)[0m  SELECT  1 AS one FROM "albums" WHERE ("albums"."name" = 'Gonna be a big A someday!' AND "albums"."band_id" = 1) LIMIT 1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "albums" ("name", "band_id", "year", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Gonna be a big A someday!"], ["band_id", 1], ["year", 2017], ["created_at", "2017-04-20 20:24:14.994915"], ["updated_at", "2017-04-20 20:24:14.994915"]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mTrack Exists (0.4ms)[0m  SELECT  1 AS one FROM "tracks" WHERE ("tracks"."ord" = 1 AND "tracks"."album_id" = 1) LIMIT 1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "tracks" ("name", "album_id", "ord", "lyrics", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Why would I make my own bracket method?"], ["album_id", 1], ["ord", 1], ["lyrics", "lalalalala"], ["created_at", "2017-04-20 20:24:15.009411"], ["updated_at", "2017-04-20 20:24:15.009411"]]
+  [1m[35m (2.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mTrack Exists (0.3ms)[0m  SELECT  1 AS one FROM "tracks" WHERE ("tracks"."ord" = 2 AND "tracks"."album_id" = 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "tracks" ("name", "album_id", "ord", "lyrics", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "I am riding the rails of majesty"], ["album_id", 1], ["ord", 2], ["lyrics", "rails rails rrrrails"], ["created_at", "2017-04-20 20:24:15.015766"], ["updated_at", "2017-04-20 20:24:15.015766"]]
+  [1m[35m (5.6ms)[0m  COMMIT
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "k4slWkBYtCHtMf/hFO575w=="]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "64DsCPkA1scJW06y1DSe+w=="]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = '64DsCPkA1scJW06y1DSe+w==' LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'chris@fake.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = 'k4slWkBYtCHtMf/hFO575w==' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("email", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["email", "chris@fake.com"], ["password_digest", "$2a$10$036AwQFUJixkmujUap54GOvVustSf6v/8rQYcSwSRMWJT5MXQ7moa"], ["session_token", "k4slWkBYtCHtMf/hFO575w=="], ["activation_token", "64DsCPkA1scJW06y1DSe+w=="], ["created_at", "2017-04-20 23:56:16.109391"], ["updated_at", "2017-04-20 23:56:16.109391"]]
+  [1m[36m (6.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Exists (0.9ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "7djCoJnPEDPUvhvf6pc15w=="]]
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "chris@fake.com"]]
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "67nQ8quFE3507ZfQhp3gnA=="]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "chris@fake.com"]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "TNDwhaY8GF+cQDA8glVAeQ=="]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "chris@fake.com"]]
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "tCUXDJZYEOBooDP/4gmzig=="]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "chris@fake.com"]]
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "gLw+t3b7B7CylrNXmL7bEg=="]]
+  [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "chris@fake.com"]]
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "5QkgPTLJxa/Kw17M8fr9vQ=="]]
