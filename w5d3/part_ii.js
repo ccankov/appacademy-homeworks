@@ -49,3 +49,10 @@ ellie.play();
 ellie.play();
 ellie.play();
 ellie.play();
+
+Elephant.paradeHelper = function paradeHelper(elephant) {
+  console.log(`${elephant.name} is trotting by!`);
+}
+
+Elephant.paradeHelper(micah);
+herd.forEach(Elephant.paradeHelper);
