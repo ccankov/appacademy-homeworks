@@ -56,3 +56,18 @@ Elephant.paradeHelper = function paradeHelper(elephant) {
 
 Elephant.paradeHelper(micah);
 herd.forEach(Elephant.paradeHelper);
+
+function dinerBreakfast() {
+  var menu_items = [];
+
+  function add_and_display(item) {
+    menu_items.push(item);
+    console.log(menu_items);
+  }
+
+  return add_and_display;
+}
+
+let bfastOrder = dinerBreakfast();
+bfastOrder("chocolate chip pancakes");
+bfastOrder("grits");
