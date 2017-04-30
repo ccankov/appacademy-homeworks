@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+ol {
+  list-style: georgian inside;
+}
+
+header > img {
+  width: 200px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: salmon;
+}
