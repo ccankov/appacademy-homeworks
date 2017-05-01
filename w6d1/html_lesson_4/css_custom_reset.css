@@ -1,5 +1,5 @@
-html, body, header, nav, aside, section, footer, h1, h2, ol, ul, li, form,
-select, label, option, input, textarea, p, a {
+html, body, header, nav, aside, section, footer, h1, h2, h3, h4, ol, ul, li,
+label, p, a {
   margin: 0;
   padding: 0;
   border: 0;
@@ -10,21 +10,4 @@ select, label, option, input, textarea, p, a {
   color: inherit;
 
   background: transparent;
-}
-
-input[type="radio"], select, button {
-  cursor: pointer;
-  outline: none;
-}
-
-form > input:last-child {
-  background-color: gold;
-}
-
-form > input:last-child:hover {
-  -webkit-filter: brightness(90%);
-}
-
-ol  li:nth-of-type(2n) {
-  color: lightgray;
 }
