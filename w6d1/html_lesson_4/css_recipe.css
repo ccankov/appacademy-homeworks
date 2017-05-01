@@ -8,8 +8,13 @@ body {
   list-style: square inside;
 }
 
+header img {
+  float: left;
+  width: 100%;
+}
+
 nav {
-  display: inline-block;
+  float: right;
 }
 
 nav li {
@@ -19,6 +24,12 @@ nav li {
 nav li a {
   display: block;
   padding: 20px;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 aside {
