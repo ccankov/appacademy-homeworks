@@ -1,5 +1,5 @@
-html, body, header, nav, aside, section, footer, h1, h2, h3, h4, ol, ul, li,
-label, p, a {
+html, body, header, nav, aside, section, figure, footer, h1, h2, h3, h4,
+ol, ul, li, label, p, a {
   margin: 0;
   padding: 0;
   border: 0;

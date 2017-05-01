@@ -75,13 +75,11 @@
       <form action="/reviews" method="post" id="review-form">
         <label for="reviewer">Reviewer</label>
         <input id="reviewer" name="name" type="text">
-        <label for="rating">Rating</label>
         <input id="rating" type="radio" name="rating" value="1" checked>1
         <input id="rating" type="radio" name="rating" value="2">2
         <input id="rating" type="radio" name="rating" value="3">3
         <input id="rating" type="radio" name="rating" value="4">4
         <input id="rating" type="radio" name="rating" value="5">5
-        <label for="cooking_expertise">Cooking Expertise</label>
         <select id="cooking_expertise" name="expertise">
           <option disabled selected="">--Select Cooking Expertise--</option>
           <option value="Sometimes Cook">Sometimes Cook</option>
@@ -89,7 +87,7 @@
           <option value="Cooking is a hobby">Cooking is a hobby</option>
           <option value="Professional Chef">Professional Chef</option>
         </select>
-        <label>Review<textarea name="review"></textarea></label>
+        <textarea name="review"></textarea>
         <input type="submit" value="Submit review">
       </form>
     </section>
