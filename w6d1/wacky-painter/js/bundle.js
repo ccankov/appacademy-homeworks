@@ -133,6 +133,7 @@ View.prototype.exercise4 = function () {
   //Result: Your name appears in every other square.
 
   //your code here!
+  $('li:odd').text("Chris");
 };
 
 View.prototype.exercise5 = function () {
@@ -144,6 +145,9 @@ View.prototype.exercise5 = function () {
   //  'data-pos' of every square
 
   //your code here!
+  $('li').on('click', event => {
+    alert(event.target.dataset.pos);
+  });
 };
 
 View.prototype.exercise6 = function () {
@@ -154,6 +158,10 @@ View.prototype.exercise6 = function () {
   //hint: use window._randomColorString() (defined at top) to get a random color!
 
   //your code here!
+  var $listItems = $('li');
+  $listItems.each(function (index){
+    this.style.backgroundColor = window._randomColorString();
+  });
 };
 
 View.prototype.exercise7 = function(){
@@ -164,6 +172,9 @@ View.prototype.exercise7 = function(){
   //rainbow.
 
   //your code here!
+  $('li').hover(function() {
+    console.log(this.style.backgroundColor);
+  });
 };
 
 
