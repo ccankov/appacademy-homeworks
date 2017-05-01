@@ -15,8 +15,7 @@
 
     </script>
     <script type="text/javascript" src="external_javascript_example.js"></script>
-    <link rel="stylesheet" href="css_reset.css" type="text/css">
-    <link rel="stylesheet" href="css_recipe.css" type="text/css">
+    <link rel="stylesheet" href="css_custom_reset.css" type="text/css">
   </head>
   <body>
     <header>
@@ -74,7 +73,7 @@
       <h2>Reviews</h2>
       <form action="/reviews" method="post" id="review-form">
         <label for="reviewer">Reviewer</label>
-        <input id="reviewer" type="text">
+        <input id="reviewer" name="name" type="text">
         <label for="rating">Rating</label>
         <input id="rating" type="radio" name="rating" value="1" checked>1
         <input id="rating" type="radio" name="rating" value="2">2
@@ -82,7 +81,7 @@
         <input id="rating" type="radio" name="rating" value="4">4
         <input id="rating" type="radio" name="rating" value="5">5
         <label for="cooking_expertise">Cooking Expertise</label>
-        <select id="cooking_expertise" name="cooking_expertise">
+        <select id="cooking_expertise" name="expertise">
           <option disabled selected="">--Select Cooking Expertise--</option>
           <option value="Sometimes Cook">Sometimes Cook</option>
           <option value="Cook everyday">Cook everyday</option>
