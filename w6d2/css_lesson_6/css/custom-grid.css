@@ -7,10 +7,8 @@ header, footer, h1 {
   flex: 1 100%;
 }
 
-aside {
-  flex: 1;
-}
-
-section {
-  flex: 2;
+@media (min-width: 900px) {
+  aside, section {
+    flex: 1;
+  }
 }

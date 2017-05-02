@@ -48,7 +48,6 @@ h2 {
 aside {
   width: 180px;
   margin-right: 15px;
-  float: left;
 }
 
 aside + section {
@@ -87,7 +86,7 @@ input[type='radio'] {
   height: 27px;
   display: inline-block;
   background-position: bottom;;
-  background-image: url(./assets/stars.png);
+  background-image: url(../assets/stars.png);
 }
 
 input[type='radio']:checked ~ input[type='radio'] {
