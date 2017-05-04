@@ -20,6 +20,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // --- your code here!
 
+  const addPlace = (e) => {
+    e.preventDefault();
+    const placeInput = document.getElementsByClassName('favorite-input')[0];
+    const placeList = document.getElementById('sf-places');
+    const newPlace = document.createElement('li');
+    newPlace.textContent = placeInput.value;
+    placeInput.value = "";
+    placeList.appendChild(newPlace);
+  };
+
+  const placeButton = document.getElementsByClassName('favorite-submit')[0];
+  placeButton.addEventListener("click", addPlace);
 
 
   // adding new photos
