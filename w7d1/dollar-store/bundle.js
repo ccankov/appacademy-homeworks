@@ -10377,8 +10377,6 @@ var Widget = function (_React$Component) {
   return Widget;
 }(_react2.default.Component);
 
-;
-
 exports.default = Widget;
 
 /***/ }),
@@ -10391,11 +10389,8 @@ exports.default = Widget;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.store = undefined;
 
 var _redux = __webpack_require__(205);
-
-var _redux2 = _interopRequireDefault(_redux);
 
 var _reducer = __webpack_require__(98);
 
@@ -10403,7 +10398,9 @@ var _reducer2 = _interopRequireDefault(_reducer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var store = exports.store = (0, _redux2.default)(_reducer2.default);
+var Store = (0, _redux.createStore)(_reducer2.default);
+
+exports.default = Store;
 
 /***/ }),
 /* 94 */
@@ -10421,6 +10418,17 @@ module.exports = __webpack_require__(112);
 
 "use strict";
 
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var selectCurrency = exports.selectCurrency = function selectCurrency(baseCurrency, rates) {
+  return {
+    type: 'SWITCH_CURRENCY',
+    baseCurrency: baseCurrency,
+    rates: rates
+  };
+};
 
 /***/ }),
 /* 96 */
@@ -10474,13 +10482,13 @@ var _reactDom = __webpack_require__(94);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _store = __webpack_require__(93);
-
-var _store2 = _interopRequireDefault(_store);
-
 var _widget = __webpack_require__(92);
 
 var _widget2 = _interopRequireDefault(_widget);
+
+var _store = __webpack_require__(93);
+
+var _store2 = _interopRequireDefault(_store);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10505,9 +10513,20 @@ var initialState = {
 
 var reducer = function reducer() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
-  var action = arguments[1];
+  var _ref = arguments[1];
+  var type = _ref.type,
+      baseCurrency = _ref.baseCurrency,
+      rates = _ref.rates;
 
-  return state; // remove this and fill out the body of the reducer function
+  switch (type) {
+    case 'SWITCH_CURRENCY':
+      return {
+        baseCurrency: baseCurrency,
+        rates: rates
+      };
+    default:
+      return state;
+  }
 };
 
 exports.default = reducer;

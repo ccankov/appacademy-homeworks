@@ -1,6 +1,6 @@
 import React from 'react';
-import Currency from './currency';
-import selectCurrency from '../actions';
+import Currency from './currency.jsx';
+import { selectCurrency } from '../actions.js';
 
 class Widget extends React.Component {
 

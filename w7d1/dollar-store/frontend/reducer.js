@@ -3,11 +3,13 @@ const initialState = {
   rates: {}
 };
 
-const reducer = (state = initialState, action) => {
-  switch (action.type) {
+const reducer = (state = initialState, { type, baseCurrency, rates}) => {
+  switch (type) {
     case 'SWITCH_CURRENCY':
-      
-      break;
+      return {
+        baseCurrency,
+        rates
+      };
     default:
       return state;
   }
