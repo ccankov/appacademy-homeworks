@@ -9,5 +9,5 @@ export const receiveSearchGiphys = giphys => ({
 
 export const fetchSearchGiphys = (searchTerm) => dispatch => (
   APIUtil.fetchSearchGiphys(searchTerm)
-    .then(giphys => receiveSearchGiphys(giphys))
+    .then(giphys => dispatch(receiveSearchGiphys(giphys)))
 );
